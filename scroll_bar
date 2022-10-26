@@ -8,3 +8,31 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+    <div class="container mt-3">
+        <h2>Responsive Table</h2> 
+        <p> The .table -responsive class adds a srcroll bar to the table when needed </p>
+        <div class="table-responsive-sm">
+            <table>
+                <thead>
+                    <tr>
+                        <th>NO</th>
+                        <th>FIrsname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Country</th>
+                        <th>Sex</th>
+                        <th>Example</th>
+                        <th>moblie</th>
+                        <th>height</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Peter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
