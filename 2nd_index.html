@@ -10,6 +10,35 @@
 </head>
 <body>
     <div class="container mt-3">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a href="#collapseOne" class="btn" data-bs-toggle="collapse">collapsible group Item #1</a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum consectetur debitis mollitia nulla similique, accusamus aut totam fugiat, tempore nobis voluptas neque obcaecati id facilis! Deserunt laboriosam vero fuga similique.</div>
+                </div>
+            </div>
+            <div class="card">
+               <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo"> collapseTwo</a>
+               </div> 
+               <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ullam labore reiciendis debitis repudiandae ipsam nisi, corporis veritatis ab perspiciatis quos amet fugiat deserunt veniam sunt. Quos officia corrupti dolores.</div>
+               </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" href="#collapseThree" data-bs-toggle="collapse">collapseThree</a>
+                </div>
+                <div id="#collapseThree" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit, optio earum repudiandae distinctio amet corporis nulla! Commodi amet culpa, ipsa facilis, inventore, nihil nulla beatae eaque dolorem quas qui.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---
+    <div class="container mt-3">
         <div class="btn-group-vertical">
             <button type="button" class="btn btn-primary">Apple</button>
             <button type="button" class="btn btn-primary">samsung</button>
@@ -19,7 +48,7 @@
                 <li ><a href="#" class="dropdown-item"> Smartphone</a></li>
             </ul>
         </div>
-    </div>
+    </div>-->
     <!--
     <div class="container mt-3">
         <div class="dropdown">
