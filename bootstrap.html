@@ -10,7 +10,25 @@
     <title>Bootstrap</title>
 </head>
 <body>
-    
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!--indicator-->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    </div>
+        <!--the slideshow-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="nft.jpg" alt="monkey" style="width: 100%;">
+            </div>
+                <div class="carousel-item">
+                    <img src="monkey.jpg" alt="monkey" style="width: 100%">
+                </div>
+            </div>
+             <!-- Left and right controls/icons -->
+             <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="next" type="button"><span class="carousel-control-next-icon"></span></button>
+     </div>
+
     <!---
     <nav class="navbar navbar-expand-sm bg-light justify-content-center">
             <ul class="navbar-nav">
