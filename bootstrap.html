@@ -10,40 +10,78 @@
     <title>Bootstrap</title>
 </head>
 <body>
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-    <!--indicator-->
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-    </div>
-        <!--the slideshow-->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="head.jpg" alt="monkey" style="width: 100%;" class="d-block">
-            </div>
-                <div class="carousel-item">
-                    <img src="monkey.jpg" alt="monkey" style="width: 100%" class="d-block">
-                </div>
-            </div>
-                <div class="carousel-item">
-                    <img src="sad.jpg" alt="monkey" style="width: 100%" class="d-block">
-                </div>
-            </div>
-                <div class="carousel-item">
-                    <img src="head.jpg" alt="monkey" style="width: 100%" class="d-block">
-                </div>
-                <div class="carousel-item">
-                    <img src="sad.jpg" alt="monkey" style="width: 100%" class="d-block">
-                </div>
-            </div>
-             <!-- Left and right controls/icons -->
-             <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev" type="button"><span class="carousel-control-prev-icon"></span></button>
-             <button class="carousel-control-next" data-bs-target="#demo" type="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-     </div>
 
+
+br
+    <br>
+    <!--MODAL-->
+    <div class="container mt-3">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bas-toggle="tooltip"  title="Hooray!" data-bs-target="#mymodal">open modal</button>
+    </div>
+    <!--modal-->
+    <div class="modal fade" id="mymodal">
+        <div class="modal-dialog modal-dialog-centered'">
+            <div class="modal-content">
+                 <!--the modal header-->
+    <div class="modal-header">
+        <h4 class="modal-title">modal Heading</h4>
+        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+            </div>
+            <!--modal body-->
+            <div class="modal-body">
+                <h3>Moadl heading</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus molestias, debitis distinctio rerum, adipisci optio voluptates dolorem et cum sint obcaecati dolores architecto perspiciatis? Consectetur non dolorum neque ut facilis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum minima quisquam laborum ut est minus aliquid sit nesciunt quaerat, dolor neque nam ipsum fugit iure fugiat illo consequuntur labore magnam officia nisi esse enim. Eum, quos. Excepturi numquam repellendus voluptates ut? Dicta pariatur tenetur quasi, soluta officiis repellendus assumenda. Ratione.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officia quas illum! Nihil, expedita architecto. Veniam eligendi sunt, quis sapiente sit deserunt, cumque dignissimos nobis delectus et voluptate unde aliquam non consequatur fugit aliquid, officiis officia eos quos pariatur rerum natus! Ut nesciunt soluta necessitatibus mollitia, illo consequatur obcaecati magnam accusamus laboriosam, molestiae quo quia est voluptates esse in tempora quis, iusto accusantium delectus dolore? Modi, eos iure aliquid nesciunt, officiis illum vero molestiae cum dolore qui non? Esse quibusdam odio harum quaerat laudantium quidem, consequatur omnis repellendus perferendis veritatis delectus, aut inventore hic in culpa animi nobis. Autem magnam aut quod, quis necessitatibus molestias quidem est cum vitae asperiores illo ea, blanditiis ratione ab accusantium iste dolores ipsam maiores omnis! Reiciendis, deleniti! Numquam facilis quasi fugiat cupiditate sed necessitatibus animi nobis aut voluptates pariatur saepe minus tenetur, alias et deserunt! Nisi similique recusandae asperiores eius deserunt, quisquam optio libero excepturi. Dolor architecto dolorum possimus perferendis numquam. Beatae sapiente molestias enim dolorum illum. Libero, cum dolores! Velit inventore, laborum, iure reiciendis laudantium asperiores consequuntur debitis necessitatibus nobis aperiam earum sunt id dolores odit doloribus eum corporis. Praesentium alias accusamus quibusdam officia reprehenderit, nesciunt ducimus libero sed dolore amet suscipit illo!    </p>
+            </div>
+            <!--modal footer-->
+            <div class="modal-footer">
+                <button class="btn btn-danger" data-bs-dismiss="modal">close</button>
+            </div>
+        </div>
+        </div>
+   
+
+    </div>
+    <br>
+    <br>
+
+
+    <!--carousel-->
+   <div class="carousel slide" id="demo" data-bs-ride="carousel">
+    <!--Indicators-->
+    <div class="carousel-indicators">
+        <button class="active" type="button" data-bs-target="#demo" data-bs-slide-to="0"></button>
+        <button  type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button  type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button  type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button  type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    </div>
+    <!--The slideshow-->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="monkey.jpg" alt="mok0" class="d-block" style="width: 100%;">
+            <div class="carousel-caption">
+                <h2 class="text-dark">NFT WORLD</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="nft.jpg" alt="mon1" class="d-block" style="width: 100%;">
+        </div>
+        <div class="carousel-item">
+            <img src="head.jpg" alt="mon2" class="d-block" style="width: 100%;">
+        </div>
+        <div class="carousel-item">
+            <img src="sad.jpg" alt="mon3" class="d-block" style="width: 100%;">
+        </div>
+        <div class="carousel-item">
+            <img src="blue.jpg" alt="mon4" class="d-block" style="width: 100%;">
+        </div>
+        <!--Left and right control-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next"> <span class="carousel-control-next-icon"></span></button>
+    </div>
+   </div>
     <!---
     <nav class="navbar navbar-expand-sm bg-light justify-content-center">
             <ul class="navbar-nav">
